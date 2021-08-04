@@ -1,7 +1,58 @@
-import {getBanknoteList, getSum, getTriangleType, isEvenIndexSumGreater, isSquareGreater, sum} from "./tasks";
+import {
+    calculator,
+    division,
+    getBanknoteList, getDeepCopyStudent,
+    getSum,
+    getTriangleType,
+    isEvenIndexSumGreater,
+    isSquareGreater,
+    multiplication, subtract,
+    sum,
+    summa
+} from "./tasks";
 
+test("summa should be correct", () => {
+    const a: number = 20;
+    const b: number = 5;
+    const result = summa(a,b)
+    expect(result).toBe(25)
+})
 
-test("get sum", () => {
+test("multiplication should be correct", () => {
+    expect(multiplication(20,5)).toBe(100)
+})
+
+test("division should be correct", () => {
+    expect(division(20,5)).toBe(4)
+})
+
+test("subtract should be correct", () => {
+    expect(subtract(20,5)).toBe(15)
+})
+
+test("calculator", () => {
+    expect(calculator(5,4, {type: "summa"})).toBe(9)
+    expect(calculator(5,4, {type: "multiplication"})).toBe(20)
+    expect(calculator(5,4, {type: "division"})).toBe(1.25)
+    expect(calculator(5,4, {type: "subtract"})).toBe(1)
+})
+
+test("deep copy of student", () => {
+    const student ={
+        name: "Bob",
+        age: 23,
+        isMarried: true,
+        friends: ["Alex", "Mike"]
+    }
+    const copyStudent = getDeepCopyStudent(student)
+    expect(copyStudent === student).toBe(false)
+    expect(copyStudent.name === student.name).toBe(true)
+    expect(copyStudent.age === student.age).toBe(true)
+    expect(copyStudent.friends === student.friends).not.toBe(true)
+    expect(copyStudent.friends[0] === student.friends[0]).toBe(true)
+})
+
+test("get sum1", () => {
     expect(sum(3, 5, 7, 6, 4, 9)).toBe(34)
     expect(sum(1, 1, 1, 6)).toBe(9)
 })
