@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "//lenocheklisichka.github.io/tasks-ts/static/css/main.3154e2c8.chunk.css",
+    "main.css": "//lenocheklisichka.github.io/tasks-ts/static/css/main.5548e931.chunk.css",
     "main.js": "//lenocheklisichka.github.io/tasks-ts/static/js/main.553a2fde.chunk.js",
     "main.js.map": "//lenocheklisichka.github.io/tasks-ts/static/js/main.553a2fde.chunk.js.map",
     "runtime-main.js": "//lenocheklisichka.github.io/tasks-ts/static/js/runtime-main.50c0526e.js",
@@ -10,13 +10,13 @@
     "static/js/3.7a43fa98.chunk.js": "//lenocheklisichka.github.io/tasks-ts/static/js/3.7a43fa98.chunk.js",
     "static/js/3.7a43fa98.chunk.js.map": "//lenocheklisichka.github.io/tasks-ts/static/js/3.7a43fa98.chunk.js.map",
     "index.html": "//lenocheklisichka.github.io/tasks-ts/index.html",
-    "static/css/main.3154e2c8.chunk.css.map": "//lenocheklisichka.github.io/tasks-ts/static/css/main.3154e2c8.chunk.css.map",
+    "static/css/main.5548e931.chunk.css.map": "//lenocheklisichka.github.io/tasks-ts/static/css/main.5548e931.chunk.css.map",
     "static/js/2.614cc27a.chunk.js.LICENSE.txt": "//lenocheklisichka.github.io/tasks-ts/static/js/2.614cc27a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.50c0526e.js",
     "static/js/2.614cc27a.chunk.js",
-    "static/css/main.3154e2c8.chunk.css",
+    "static/css/main.5548e931.chunk.css",
     "static/js/main.553a2fde.chunk.js"
   ]
 }
