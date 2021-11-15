@@ -13,8 +13,7 @@ export const Clock = () => {
         <div>
             <div className={'time'}>Exact Moscow time</div>
             <div className={'clock'}>{new Date().toLocaleTimeString()}</div>
-            <div className={'data'}>Monday November 15 2021</div>
-
+            <div className={'data'}>{new Date().toDateString()}</div>
         </div>
     )
 }
